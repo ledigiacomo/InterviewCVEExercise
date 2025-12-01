@@ -32,9 +32,9 @@ CVE-2022-42003 - Jackson Databind vulnerability
 * CVE-2022-22965 (Spring4Shell) - Remote Code Execution
 * CVE-2022-22950 - Spring Framework DoS vulnerability
 
-### CVE #5: SnakeYAML
+### CVE #5: Spring Boot
 
-CVE-2022-25857 - SnakeYAML deserialization vulnerability
+CVE-2025-22235 - Spring Boot vulnerability
 
 ## Success Criteria
 
