@@ -56,6 +56,7 @@ CVE-2022-25857 - SnakeYAML deserialization vulnerability
 
 * What strategies did you use to identify which dependencies needed updating?
 * Where should vulnerability resolution be handled?
+* When upgrading a third-party dependency which version should you go to?
 * How would you prevent similar vulnerabilities in a production environment?
 
 ## Resources
