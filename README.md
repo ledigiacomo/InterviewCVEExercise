@@ -23,20 +23,16 @@ This application contains 5 CVEs that need to be addressed:
 
 CVE-2025-48924 - commons-lang3 vulnerability
 
-### CVE #2: Direct Dependency in BOM
+### CVE #2: Transitive Dependency via BOM
 
-CVE-2020-36518 - Jackson Databind vulnerability
+CVE-2022-42003 - Jackson Databind vulnerability
 
-### CVE #3: Transitive Dependency via BOM
-
-CVE-2021-42550 - Logback vulnerability
-
-### CVE #4-5: Spring Framework Vulnerabilities
+### CVE #3-4: Spring Framework Vulnerabilities
 
 * CVE-2022-22965 (Spring4Shell) - Remote Code Execution
 * CVE-2022-22950 - Spring Framework DoS vulnerability
 
-### CVE #6: SnakeYAML
+### CVE #5: SnakeYAML
 
 CVE-2022-25857 - SnakeYAML deserialization vulnerability
 
