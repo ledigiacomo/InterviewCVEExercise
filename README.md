@@ -58,5 +58,6 @@ CVE-2025-22235 - Spring Boot vulnerability
 ## Resources
 
 * Spring Boot Release Notes: https://github.com/spring-projects/spring-boot/wiki
+* Spring Boot Support Policy: https://spring.io/support-policy
 * National Vulnerability Database: https://nvd.nist.gov/
 * Maven Central (spring-boot-dependencies): https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-dependencies/2.6.6 
