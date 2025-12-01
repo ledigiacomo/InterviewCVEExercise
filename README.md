@@ -7,7 +7,7 @@ This Spring Boot application contains several known CVEs that need to be resolve
 
 ### Clone this repository
 
-
+git clone https://github.com/ledigiacomo/InterviewCVEExercise.git
 
 ### Initialize Gradle Wrapper
 
