@@ -52,12 +52,11 @@ CVE-2025-22235 - Spring Boot vulnerability
 
 * What strategies did you use to identify which dependencies needed updating?
 * Where should vulnerability resolution be handled?
-* When upgrading a third-party dependency which version should you go to?
+* When upgrading a third-party dependency how do yu determine which version you should go to?
 * How would you prevent similar vulnerabilities in a production environment?
 
 ## Resources
 
 * Spring Boot Release Notes: https://github.com/spring-projects/spring-boot/wiki
-* Spring Security Migration Guide: https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter
 * National Vulnerability Database: https://nvd.nist.gov/
 * Maven Central (spring-boot-dependencies): https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-dependencies/2.6.6 
