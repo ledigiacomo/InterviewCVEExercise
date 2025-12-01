@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id 'org.springframework.boot'
     id 'io.spring.dependency-management'
 }
 
@@ -13,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    implementation platform('org.springframework.boot:spring-boot-dependencies:2.6.6')
+    implementation platform('org.springframework.boot:spring-boot-dependencies:2.6.3')
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-security'
