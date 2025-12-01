@@ -15,8 +15,9 @@ This Spring Boot application contains several known CVEs that need to be resolve
 
 ### Ensure application builds
 
-Run ./gradlew clean build to verify the application builds
-Run ./gradlew test to verify all tests pass
+* Run ./gradlew clean build to verify the application builds
+* Run ./gradlew test to verify all tests pass
+* Application can start: ./gradlew bootRun
 
 ## Your Task
 
@@ -32,8 +33,8 @@ CVE-2021-42550 - Logback vulnerability
 
 ### CVE #3-4: Spring Framework Vulnerabilities
 
-CVE-2022-22965 (Spring4Shell) - Remote Code Execution
-CVE-2022-22950 - Spring Framework DoS vulnerability
+* CVE-2022-22965 (Spring4Shell) - Remote Code Execution
+* CVE-2022-22950 - Spring Framework DoS vulnerability
 
 ### CVE #5: SnakeYAML
 
@@ -41,23 +42,23 @@ CVE-2022-25857 - SnakeYAML deserialization vulnerability
 
 ## Success Criteria
 
-All 5 CVEs are resolved
-Application builds successfully: ./gradlew clean build
-All tests pass: ./gradlew test
-Application can start: ./gradlew bootRun
+* All 5 CVEs are resolved
+* Application builds successfully: ./gradlew clean build
+* All tests pass: ./gradlew test
+* Application can start: ./gradlew bootRun
 
 ## Tips
 
-Use ./gradlew dependencies to inspect the dependency tree
-Use ./gradlew dependencyInsight --dependency <name> to trace specific dependencies
+* Use ./gradlew dependencies to inspect the dependency tree
+* Use ./gradlew dependencyInsight --dependency <name> to trace specific dependencies
 
 ## Questions to Consider
 
-What strategies did you use to identify which dependencies needed updating?
-How would you prevent similar vulnerabilities in a production environment?
+* What strategies did you use to identify which dependencies needed updating?
+* How would you prevent similar vulnerabilities in a production environment?
 
 ## Resources
 
-Spring Boot Release Notes: https://github.com/spring-projects/spring-boot/wiki
-Spring Security Migration Guide: https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter
-National Vulnerability Database: https://nvd.nist.gov/
+* Spring Boot Release Notes: https://github.com/spring-projects/spring-boot/wiki
+* Spring Security Migration Guide: https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter
+* National Vulnerability Database: https://nvd.nist.gov/
