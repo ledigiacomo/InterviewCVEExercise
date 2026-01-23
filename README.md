@@ -25,7 +25,7 @@ CVE-2025-48924 - commons-lang3 vulnerability
 
 ### CVE #2: Transitive Dependency via BOM
 
-CVE-2025-52999 - Jackson Databind vulnerability
+CVE-2025-52999 - Jackson vulnerability
 
 ### CVE #3-4: Spring Framework Vulnerabilities
 
